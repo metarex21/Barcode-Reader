@@ -25,7 +25,7 @@ To use this application, follow these steps:
 2. Open a terminal or command prompt and navigate to the project directory.
 3. Run the following command to start the application:
 ``` 
-python barcode_decoder.py
+python barcode_reader.py
 ```
 
 4. Click the "Select barcode image" button and choose a barcode image file from your computer.
