@@ -1,29 +1,39 @@
 # Barcode Reader
 
-This is a Python script that decodes barcodes in images using the `pyzbar` library. The script is easy to use and requires only a few dependencies.
+This is a simple Python application that allows you to decode barcodes from image files using the `pyzbar` library and display the decoded data in a graphical user interface (GUI) built with the `tkinter` library.
 
-## Requirements
+## Prerequisites
 
-To run this script, you need to have the following installed:
+Before you can run this application, you need to have the following libraries installed:
 
-- Python 3
-- OpenCV (cv2)
-- NumPy
-- PyZbar
+- `pyzbar`: A Python wrapper for the ZBar barcode library, which provides functions to decode barcodes from image files.
+- `opencv-python`: A Python wrapper for the OpenCV computer vision library, which provides functions to read and manipulate image files.
+- `Pillow`: A Python imaging library that provides functions to resize and display images.
 
-You can install `cv2`, `NumPy`, and `PyZbar` using `pip`.
+You can install these libraries using pip, the package installer for Python. Open a terminal or command prompt and run the following commands:
+```
+pip install pyzbar
+pip install opencv-python
+pip install Pillow
+```
 
-## Usage
+## How to Use
 
-To use the script, simply run the following command in your terminal or command prompt:
+To use this application, follow these steps:
 
-`python barcode_reader.py --image [image_path]`
+1. Clone or download the repository to your local machine.
+2. Open a terminal or command prompt and navigate to the project directory.
+3. Run the following command to start the application:
+``` 
+python barcode_decoder.py
+```
+
+4. Click the "Select barcode image" button and choose a barcode image file from your computer.
+5. Click the "Decode barcode" button to decode the selected image and display the decoded data in the GUI.
 
 
-Replace `[image_path]` with the path to the image containing the barcode you want to decode.
+## Acknowledgments
 
-The script will output the data stored in the barcode and display the image with a green rectangle around the barcode.
-
-## Contributing
-
-Feel free to contribute to this repository by improving the code or adding new features. To contribute, simply fork this repository, make your changes, and submit a pull request.
+- The [pyzbar](https://github.com/NaturalHistoryMuseum/pyzbar) library
+- The [opencv-python](https://github.com/opencv/opencv-python) library
+- The [Pillow]( https://github.com/python-pillow/Pillow) library
