@@ -25,7 +25,7 @@ To use this application, follow these steps:
 
   ![image](https://user-images.githubusercontent.com/72374116/231289126-8b234ec5-4b66-4e48-b0e2-8a9c7ce6c407.png)
 
-### 2. Open the project folder, navigate to the main folder and right click and press Open in Terminal.
+### 2. Open the project folder, navigate to the main folder, right click and press Open in Terminal.
 
   ![image](https://user-images.githubusercontent.com/72374116/231289558-fab9d8f8-3d99-464b-b8fb-353e4f18c99c.png)
 
