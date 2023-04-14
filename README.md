@@ -33,3 +33,9 @@ python barcode_reader.py
   ![image](https://user-images.githubusercontent.com/72374116/231288395-ab2a8520-caeb-4329-99ff-8ccdae76ae40.png)
 ### 6. Click the "Decode barcode" button to decode the selected image and display the decoded data in the GUI.
   ![image](https://user-images.githubusercontent.com/72374116/231288200-1bb68940-6961-4b5d-913d-c83bdaa1b119.png)
+  
+  ## Acknowledgments
+- The [pyzbar](https://github.com/NaturalHistoryMuseum/pyzbar) library
+- The [opencv-python](https://github.com/opencv/opencv-python) library
+- The [Pillow]( https://github.com/python-pillow/Pillow) library
+
